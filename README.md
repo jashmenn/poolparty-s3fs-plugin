@@ -10,11 +10,11 @@ Usage
 *NOTICE* You must have already created your S3 bucket. This plugin will *not*
 create it for you.
 
-  cloud(:app)
-    ...
-    s3fs(:bucket => "my-fun-bucket")
-    ...
-  end
+    cloud(:app)
+      ...
+      s3fs(:bucket => "my-fun-bucket")
+      ...
+    end
 
 This will be mounted at `/mnt/my-fun-bucket`
 You can mount multiple buckets and/or change the mount point:

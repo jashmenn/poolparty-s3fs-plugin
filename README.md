@@ -26,12 +26,13 @@ You can mount multiple buckets and/or change the mount point:
 
 References:
 ==========
-http://code.google.com/p/s3fs/wiki/FuseOverAmazon
-http://groups.google.com/group/ec2ubuntu/browse_thread/thread/9093236bc07d220b?pli=1
+ * http://code.google.com/p/s3fs/wiki/FuseOverAmazon
+ * http://groups.google.com/group/ec2ubuntu/browse_thread/thread/9093236bc07d220b?pli=1
 
 Credit:
 =======
 Plugin written by Nate Murray
+
 Installation instructions by Eric Hammond 
 
 LICENSE:

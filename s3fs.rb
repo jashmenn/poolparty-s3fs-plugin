@@ -31,7 +31,7 @@ module PoolParty
                  :requires => get_exec("compile-s3fs-src"))
 
         has_file({:name => "/etc/passwd-s3fs", 
-                  :content => "#{access_key}:#{secret_access_key}}",
+                  :content => "#{access_key}:#{secret_access_key}",
                   :mode => 600})
       end
 
